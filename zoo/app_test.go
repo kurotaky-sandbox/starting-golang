@@ -1,14 +1,14 @@
 package main
 
 import (
-    "testing"
+	"testing"
 )
 
 func TestAppName(t *testing.T) {
-    expect := "Zoo Application"
-    actual := AppName()
+	expect := "Zoo Application"
+	actual := AppName()
 
-    if expect != actual {
-        t.Errorf("%s != %s", expect, actual)
-    }
+	if expect != actual {
+		t.Errorf("%s != %s", expect, actual)
+	}
 }

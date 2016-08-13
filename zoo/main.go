@@ -1,15 +1,15 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 
-    "./animals"
+	"./animals"
 )
 
 func main() {
-    fmt.Println(AppName())
-    
-    fmt.Println(animals.ElephantFeed())
-    fmt.Println(animals.MonkeyFeed())
-    fmt.Println(animals.RabbitFeed())
+	fmt.Println(AppName())
+
+	fmt.Println(animals.ElephantFeed())
+	fmt.Println(animals.MonkeyFeed())
+	fmt.Println(animals.RabbitFeed())
 }
